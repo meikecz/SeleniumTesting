@@ -1,0 +1,268 @@
+{
+  "id": "fcd4a969-3a48-4ec2-9c4b-b6662bb943bd",
+  "version": "2.0",
+  "name": "Projekt_Meike_2",
+  "url": "https://www.mueller.ch",
+  "tests": [{
+    "id": "1280612d-943d-4ca2-879a-cc29dd8fc672",
+    "name": "mueller_2",
+    "commands": [{
+      "id": "f4fd87d6-aa04-45d7-a256-5dd00aa9d819",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9258599b-47f9-4d69-80c3-669395432add",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x638",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "876060d9-38cc-4272-8308-fe81e58b4947",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-active > .mu-slider__image",
+      "targets": [
+        ["css=.swiper-slide-active > .mu-slider__image", "css:finder"],
+        ["xpath=//img[@alt='Müller rockt Wacken']", "xpath:img"],
+        ["xpath=//div[@id='page']/main/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095a7c9d-795b-46db-a515-10bd978acd21",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-active > .mu-slider__image",
+      "targets": [
+        ["css=.swiper-slide-active > .mu-slider__image", "css:finder"],
+        ["xpath=//img[@alt='Müller rockt Wacken']", "xpath:img"],
+        ["xpath=//div[@id='page']/main/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4ca764-52c9-4ab5-b6c9-c8f6262324b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=page",
+      "targets": [
+        ["id=page", "id"],
+        ["css=#page", "css:finder"],
+        ["xpath=//div[@id='page']", "xpath:attributes"],
+        ["xpath=//div[@id='vue-app']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664865a1-7eec-499d-ad55-159410f9b059",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6a0e76-b181-4965-a927-6eb1b60cb210",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mu-navigation__item:nth-child(2) > .mu-navigation__link > span",
+      "targets": [
+        ["css=.mu-navigation__item:nth-child(2) > .mu-navigation__link > span", "css:finder"],
+        ["xpath=//div[@id='page']/div/header/div[4]/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4baed4d1-df8a-421d-ac9e-5d9092ca2d96",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,226)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "759c3f65-07c8-4eb5-8f5b-5fda64ff3dd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) .mu-product-tile:nth-child(2) .mu-product-tile__image:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(6) .mu-product-tile:nth-child(2) .mu-product-tile__image:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='DOLCE&GABBANA Pour Homme Eau de Toilette']", "xpath:img"],
+        ["xpath=//div[@id='page']/main/div/div[2]/div/div[6]/div/div/div/div/div/a[2]/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f8b376-f28e-42a4-b6f9-85325b92fa51",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,816)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33bcee25-df00-43b6-8ac1-1b5e27dc7c6d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mu-button2--icon-left-center > .mu-button2__content",
+      "targets": [
+        ["css=.mu-button2--icon-left-center > .mu-button2__content", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/div[2]/div[6]/form/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf4b5b9-bc1a-4d4f-b70a-05f1f541390e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mu-button2--icon-left-center > .mu-button2__content",
+      "targets": [
+        ["css=.mu-button2--icon-left-center > .mu-button2__content", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/div[2]/div[6]/form/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f95303e-6dfa-4bca-9a83-4e34cd4f1377",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mu-button2--icon-left-center > .mu-button2__content",
+      "targets": [
+        ["css=.mu-button2--icon-left-center > .mu-button2__content", "css:finder"],
+        ["xpath=//div[@id='page']/main/div/div/div/div[3]/div[6]/form/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1face17-a014-4364-b757-837dccbc0c30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mu-button2--full-width",
+      "targets": [
+        ["css=.mu-button2--full-width", "css:finder"],
+        ["xpath=//div[@id='page']/div/header/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/basket/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d574af4e-c742-46ed-80af-fe021af47150",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mu-button2--icon-left-center",
+      "targets": [
+        ["css=.mu-button2--icon-left-center", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div[@id='vue-app']/div[3]/div/div/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0dd2aef-9e07-4174-8781-006d59473dd1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mu-button2--icon-left-center",
+      "targets": [
+        ["css=.mu-button2--icon-left-center", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div[@id='vue-app']/div[3]/div/div/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5c5073-b0cb-41b5-a0d8-35f43e7a3b08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mu-button2--icon-left-center > .mu-button2__side--left",
+      "targets": [
+        ["css=.mu-button2--icon-left-center > .mu-button2__side--left", "css:finder"],
+        ["xpath=//div[@id='vue-app']/div[3]/div/div/div/div[2]/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9466aeb-b9bf-4b63-aa9d-b694fa617a2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mu-button2:nth-child(6)",
+      "targets": [
+        ["css=.mu-button2:nth-child(6)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='checkout-step-0']/div/div/div[2]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a51135f1-6b46-4bb4-9c1b-cacfa15c1e32",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mu-button2:nth-child(6)",
+      "targets": [
+        ["css=.mu-button2:nth-child(6)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='checkout-step-0']/div/div/div[2]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4adde4a5-63e5-49f7-98bc-cc9526e29d2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mu-button2:nth-child(6) > .mu-button2__content",
+      "targets": [
+        ["css=.mu-button2:nth-child(6) > .mu-button2__content", "css:finder"],
+        ["xpath=//div[@id='checkout-step-0']/div/div/div[2]/form/button[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4f7bf7-3774-4b50-b2ca-deb363a0402b",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(2)",
+      "targets": [
+        ["css=option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='Frau']", "xpath:attributes"],
+        ["xpath=//select[@id='xyr3i2']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Frau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b71319-aac2-4c7a-95a9-9f1a9f3aef47",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mu-checkout-step--active .mu-checkout-step__headline",
+      "targets": [
+        ["css=.mu-checkout-step--active .mu-checkout-step__headline", "css:finder"],
+        ["xpath=//div[@id='checkout-step-0']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ich bin neu hier')]", "xpath:innerText"]
+      ],
+      "value": "Ich bin neu hier"
+    }, {
+      "id": "c314e0be-fc80-47cc-a34c-318d198da00a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mu-basket-summary2__row--wrap:nth-child(1) > .mu-basket-summary2__subtitle",
+      "targets": [
+        ["css=.mu-basket-summary2__row--wrap:nth-child(1) > .mu-basket-summary2__subtitle", "css:finder"],
+        ["xpath=//div[@id='vue-app']/div[3]/div/div/div[2]/div[2]/div/div[2]/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Summe Abholung')]", "xpath:innerText"]
+      ],
+      "value": "Summe Abholung"
+    }]
+  }],
+  "suites": [{
+    "id": "f33b7ab2-c5ae-4360-bceb-a33d9cd219b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1280612d-943d-4ca2-879a-cc29dd8fc672"]
+  }],
+  "urls": ["https://www.mueller.ch/"],
+  "plugins": []
+}

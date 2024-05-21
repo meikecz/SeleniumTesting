@@ -1,0 +1,330 @@
+{
+  "id": "5e0f7a96-580e-4f86-ab1a-d7febcc254b0",
+  "version": "2.0",
+  "name": "Projekt_Meike",
+  "url": "https://www.galaxus.ch",
+  "tests": [{
+    "id": "a6943f8f-558c-40a5-b22d-297e97c19d70",
+    "name": "AirPods_neu",
+    "commands": [{
+      "id": "6b2f7b90-f91e-426d-9072-f6e7d87c1134",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a5aa3b-dfa4-4b20-96d7-b89ecd588b7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed5e5293-b1af-44b3-9939-f648c54e4e24",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,756)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e598d3ef-4c85-4ca1-948f-71191bbc45f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IT + Multimedia",
+      "targets": [
+        ["linkText=IT + Multimedia", "linkText"],
+        ["css=.sc-ba0f659-0:nth-child(1) > .sc-ccd25b80-0", "css:finder"],
+        ["xpath=//a[contains(text(),'IT + Multimedia')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/nav/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s1/sector/it-multimedia-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'IT + Multimedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b52e32-1c99-4d62-add6-34a1d9688c43",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ca2304c-5f50-4e46-b5cc-c2d6e0ad765a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-ca470560-3:nth-child(1) > .sc-d300819e-3 > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-ca470560-3:nth-child(1) > .sc-d300819e-3 > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div[2]/section/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/de/s1/tag/audio-591')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6828a4c9-1434-400f-97ee-d05fcfb212e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ca470560-3:nth-child(1) > .sc-d300819e-3 > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-ca470560-3:nth-child(1) > .sc-d300819e-3 > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div[2]/section/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/de/s1/tag/audio-591')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69aa40dc-b2cf-4d69-a11f-733ef10cd9bf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6f0771e-6c35-498a-86bf-cc3da08999bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,527)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9738fb67-6fad-4f0c-bc27-71de74a766ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id='productListingContainer']/div[4]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s1/product/apple-airpods-pro-2nd-gen-magsafe-usb-c-anc-6-h-kabellos-kopfhoerer-38610474')]", "xpath:href"],
+        ["xpath=//div[4]/article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55bf558-d330-4e1e-a1a8-3d573810f0ae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bed63ba-f978-4b56-a8f5-0bf4fd6bd0c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=*[data-test=\"addToCartButton\"]",
+      "targets": [
+        ["css=*[data-test=\"addToCartButton\"]", "css:data-attr"],
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'In den Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76af002a-f79a-4323-bf48-233ba56dfc92",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=*[data-test=\"addToCartButton\"]",
+      "targets": [
+        ["css=*[data-test=\"addToCartButton\"]", "css:data-attr"],
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'In den Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b93cc62-1102-4c1f-8f88-a775f4a82de3",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"addToCartButton\"]",
+      "targets": [
+        ["css=*[data-test=\"addToCartButton\"]", "css:data-attr"],
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'In den Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b264172-388c-4ddb-97cb-3c36185e8c5a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=*[data-test=\"addToCartButton\"]",
+      "targets": [
+        ["css=*[data-test=\"addToCartButton\"]", "css:data-attr"],
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'In den Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70c8d2d-72f1-4175-a80b-ba9a82a06e94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Weiter zum Warenkorb",
+      "targets": [
+        ["linkText=Weiter zum Warenkorb", "linkText"],
+        ["css=.sc-e46a281b-10", "css:finder"],
+        ["xpath=//a[contains(text(),'Weiter zum Warenkorb')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/cart')]", "xpath:href"],
+        ["xpath=//dialog/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Weiter zum Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ca9a8b-3700-46c3-afdf-0fd9f934d1b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Zur Kasse",
+      "targets": [
+        ["linkText=Zur Kasse", "linkText"],
+        ["css=.hTgOQj", "css:finder"],
+        ["xpath=//a[contains(text(),'Zur Kasse')]", "xpath:link"],
+        ["xpath=//main[@id='pageContent']/div[2]/section/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/checkout')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zur Kasse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0689d0f8-fa17-4387-adc5-edef4e76c44c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Als Privatkunde registrieren",
+      "targets": [
+        ["linkText=Als Privatkunde registrieren", "linkText"],
+        ["css=.secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Als Privatkunde registrieren')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Account/RegisterCustomer?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dshau.galaxus.ch%26redirect_uri%3Dhttps%253A%252F%252Fwww.galaxus.ch%252Fauth%252Fsignin-oidc%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520customerinfo%2520email%2520roles%2520custom.profile%2520offline_access%26code_challenge%3Dlq2Jny9rLEQbxATc_RSu4P5nHvmwv0f72_88IHAjl0E%26code_challenge_method%3DS256%26response_mode%3Dform_post%26nonce%3D638516568375526323.ODdkMjYyNTgtYzNlNC00NTc4LTg3ZjktZTgzOGQ4Y2NkNTQwYzMzODZiZWUtNWFjZi00ZjdiLTgyMzMtMTY4N2ZmMjA1NTk1%26acr_values%3Dtenant%253Agalaxus.ch%2520_ga%253A1924491801.1716056857%2520.cid%253A1b487665-97b3-4b2e-821d-cbd757385d48%2520sp%253A5def09eb-aea9-4574-a22c-38e063c76c6d%2520.ub.id.%253A7ca75837-783d-49f3-81fc-44af4b85eefd.1716056855.2.1716060037.1716057535.65797a81-2006-44f3-a98a-2f350cef013a.60d221f1-8655-48c4-b386-b544d4d8688d.abf007f6-3878-473d-9ab7-ac5719552f5a.1716059987156.34%26state%3DCfDJ8LoJdSZEAatOgws3MxPyskCMOc64EoQYBCPTo368w6okB1BZ5QQLIqXfWTXWVwzGILstPkoUMYjI_E4SvYJKuEznBhhTYtLbj1FKu7M8zmyWMuE5FEN87EklJ4CBhTGD_2voKqH3Im2ngAvQAHIiKPHTE7anS5DjsfS2yb0u4Us2euPqlYDo6_tQU99OewulCuIDJQkNhd_piUIqVY0JHzVIpOyexxVQNEogB0szrU9Ij8d3yJfLOWmKze8WWrb_FrHOskp-4t3NDGaImKaiIMtzAtnL6g95umZEMz73iWSBteIZ1Uiw5PAhgmgkRhY7akqNavF_qGm1uosFVfQoOR_36Xx0mEAvBkp5dZ5huqb-E-NvqLVPfN5fR2O5hN82ZBzVJSrEGu5gEHD1DZK1Qf9DahI34pQ7VUtUhlsyAsue6ijxps1jGd2b1a87jL9pVw')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Als Privatkunde registrieren')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a764b6e0-ae34-4634-8b25-9301d67ed686",
+      "comment": "",
+      "command": "click",
+      "target": "id=RegisterPrivateCustomerInputModel_Email",
+      "targets": [
+        ["id=RegisterPrivateCustomerInputModel_Email", "id"],
+        ["name=RegisterPrivateCustomerInputModel.Email", "name"],
+        ["css=#RegisterPrivateCustomerInputModel_Email", "css:finder"],
+        ["xpath=//input[@id='RegisterPrivateCustomerInputModel_Email']", "xpath:attributes"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8317398a-2c3b-47da-83aa-0b84e3590a7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(5) label:nth-child(3)",
+      "targets": [
+        ["css=.form-group:nth-child(5) label:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div[3]/fieldset/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Frau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d14353-0965-4017-b967-c32e18377245",
+      "comment": "",
+      "command": "click",
+      "target": "id=RegisterPrivateCustomerInputModel_Firstname",
+      "targets": [
+        ["id=RegisterPrivateCustomerInputModel_Firstname", "id"],
+        ["name=RegisterPrivateCustomerInputModel.Firstname", "name"],
+        ["css=#RegisterPrivateCustomerInputModel_Firstname", "css:finder"],
+        ["xpath=//input[@id='RegisterPrivateCustomerInputModel_Firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3940cd1b-237a-4136-91bb-4ef92201dc09",
+      "comment": "",
+      "command": "click",
+      "target": "id=RegisterPrivateCustomerInputModel_Email",
+      "targets": [
+        ["id=RegisterPrivateCustomerInputModel_Email", "id"],
+        ["name=RegisterPrivateCustomerInputModel.Email", "name"],
+        ["css=#RegisterPrivateCustomerInputModel_Email", "css:finder"],
+        ["xpath=//input[@id='RegisterPrivateCustomerInputModel_Email']", "xpath:attributes"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52070fcc-fb46-4d8b-8f1c-a751a70654d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=RegisterPrivateCustomerInputModel_Firstname",
+      "targets": [
+        ["id=RegisterPrivateCustomerInputModel_Firstname", "id"],
+        ["name=RegisterPrivateCustomerInputModel.Firstname", "name"],
+        ["css=#RegisterPrivateCustomerInputModel_Firstname", "css:finder"],
+        ["xpath=//input[@id='RegisterPrivateCustomerInputModel_Firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Miek"
+    }, {
+      "id": "74d01b51-35d8-4283-99ca-f60583b9bb3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=RegisterPrivateCustomerInputModel_Lastname",
+      "targets": [
+        ["id=RegisterPrivateCustomerInputModel_Lastname", "id"],
+        ["name=RegisterPrivateCustomerInputModel.Lastname", "name"],
+        ["css=#RegisterPrivateCustomerInputModel_Lastname", "css:finder"],
+        ["xpath=//input[@id='RegisterPrivateCustomerInputModel_Lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Zehnder"
+    }, {
+      "id": "b342de22-7023-41a6-8503-af3df34640f9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.form-group:nth-child(5) label:nth-child(3)",
+      "targets": [
+        ["css=.form-group:nth-child(5) label:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div[3]/fieldset/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Frau')]", "xpath:innerText"]
+      ],
+      "value": "Frau"
+    }, {
+      "id": "e5fe959a-55bf-4633-8595-9d67397b3460",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=fieldset:nth-child(7) > .form-group:nth-child(2) > label",
+      "targets": [
+        ["css=fieldset:nth-child(7) > .form-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[@id='privateCustomerRegistration']/form/fieldset/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'E-Mail')]", "xpath:innerText"]
+      ],
+      "value": "E-Mail"
+    }]
+  }],
+  "suites": [{
+    "id": "92a4068f-a66e-409c-97c4-f7b88e5e464e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a6943f8f-558c-40a5-b22d-297e97c19d70"]
+  }],
+  "urls": ["https://www.galaxus.ch/"],
+  "plugins": []
+}
